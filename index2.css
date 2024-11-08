@@ -1,0 +1,380 @@
+/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
+button,hr,input {
+    overflow: visible
+}
+
+.site-nav,sub,sup {
+    position: relative
+}
+
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section {
+    display: block
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+b,strong {
+    font-weight: bolder
+}
+
+img {
+    border-style: none
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+button,input,optgroup,select,textarea {
+    line-height: 1.15;
+    font-size: 100%;
+    margin: 0
+}
+
+button,select {
+    text-transform: none
+}
+
+[type=reset],[type=submit],button,html [type=button] {
+    -webkit-appearance: button
+}
+
+.lzd-header,body {
+    font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif
+}
+
+body {
+    margin: 0
+}
+
+.site-nav {
+    min-width: 1188px;
+    background-color: #fff;
+    -webkit-filter: "progid\:DXImageTransform\.Microsoft\.gradient(startColorstr\='#003e52', endColorstr\='#1a9cb7',GradientType\=1)";
+    filter: "progid\:DXImageTransform\.Microsoft\.gradient(startColorstr\='#003e52', endColorstr\='#1a9cb7',GradientType\=1)"
+}
+
+.site-nav * {
+    box-sizing: content-box;
+}
+
+.lzd-header {
+    height: 100px
+}
+
+.lzd-header .lzd-logo-bar {
+    height: 75px
+}
+
+.lzd-header {
+    width: 100%;
+    height: 140px
+}
+
+.lzd-header .lzd-header-content-wrap {
+    background-color: #fff;
+    filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='#003e52', endColorstr='#1a9cb7', GradientType=1)";
+    width: 100%;
+    position: fixed;
+    z-index: 300
+}
+
+.lzd-header .header-content {
+    width: 1188px;
+    min-width: 1188px;
+    margin: 0 auto
+}
+
+.lzd-header .lzd-links-bar {
+    position: relative;
+    background: rgba(0,0,0,.03);
+    min-width: 1006px;
+    height: 25px;
+    text-align: left;
+    -webkit-transition: height .25s linear,zIndex 0s linear .25s;
+    transition: height .25s linear,zIndex 0s linear .25s;
+    z-index: 310
+}
+
+.lzd-header .lzd-links-bar .top-links-item {
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #9e9e9e;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+    padding: 0 17px
+}
+
+.lzd-header .lzd-links-bar .top-links-item:last-child {
+    padding-right: 0
+}
+
+.lzd-header .lzd-links-bar .top-links-item .cyan,.lzd-header .lzd-links-bar .top-links-item.cyan {
+    color: #0f1568
+}
+
+.lzd-header .lzd-links-bar .top-links-item>a {
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: color .2s;
+    transition: color .2s
+}
+
+.lzd-header .lzd-links-bar .top-links-item-hidden {
+    display: none
+}
+
+.lzd-header .lzd-logo-bar {
+    box-sizing: border-box;
+    padding-top: 11px
+}
+
+.lzd-header .lzd-logo-bar .logo-bar-content {
+    position: relative
+}
+
+.lzd-header .lzd-logo-bar .logo-bar-content .lzd-logo-content {
+    display: inline-block;
+    width: 200px;
+    height: 39px
+}
+
+.lzd-header .lzd-logo-bar .logo-bar-content .lzd-logo-content a {
+    float: left
+}
+
+.lzd-header .lzd-logo-bar .logo-bar-content .lzd-logo-content img {
+    width: 127px;
+    height: 40px
+}
+
+.lzd-header .lzd-header-banner {
+    width: 188px;
+    height: 45px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.lzd-header .mui-zebra-module {
+    position: relative
+}
+
+.lzd-header .mui-zebra-module .lzd-site-nav-menu-active {
+    top: auto!important;
+    -webkit-transition: height .25s;
+    transition: height .25s
+}
+
+.lzd-site-nav-menu {
+    position: relative;
+    background: #fff;
+    top: 0;
+    z-index: 210;
+    width: 100%;
+    height: 0
+}
+
+.lzd-site-nav-menu .lzd-site-menu-nav-category .lzd-site-menu-nav-menu {
+    visibility: hidden
+}
+
+.lzd-site-nav-menu .lzd-site-menu-nav-category .lzd-site-menu-nav-menu .lzd-site-nav-menu-dropdown {
+    visibility: inherit;
+    padding: 0!important
+}
+
+.lzd-site-nav-menu .lzd-site-menu-nav-category .lzd-site-menu-nav-menu .lzd-site-nav-menu-dropdown .lzd-site-menu-root,.lzd-site-nav-menu .lzd-site-menu-nav-category .lzd-site-menu-nav-menu .lzd-site-nav-menu-dropdown .root {
+    overflow: hidden
+}
+
+.lzd-site-nav-menu .lzd-site-menu-nav-container {
+    width: 1188px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative
+}
+
+.lzd-site-nav-menu .lzd-site-menu-nav-container .lzd-site-menu-nav-category {
+    width: 200px;
+    line-height: 40px;
+    float: left;
+    z-index: 210;
+    height: 100%
+}
+
+.lzd-site-nav-menu .lzd-site-menu-nav-container .lzd-site-menu-nav-category .lzd-site-menu-nav-category-text {
+    font-family: Roboto-Medium;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #0f136d;
+    letter-spacing: 0;
+    line-height: 40px
+}
+
+.lzd-site-nav-menu .lzd-site-menu-nav-container .lzd-site-menu-nav-category .lzd-site-menu-nav-category-text::after,.lzd-site-nav-menu-iconfont {
+    font-family: lazada!important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: .2px;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.lzd-site-nav-menu .lzd-site-menu-nav-container .lzd-site-menu-nav-category .lzd-site-menu-nav-category-text::after {
+    content: '\e736';
+    margin-left: 12px;
+    font-size: 16px
+}
+
+.lzd-site-nav-menu .lzd-site-menu-nav-container .lzd-menu-labels {
+    list-style: none;
+    overflow: hidden;
+    height: 100%;
+    padding: 0;
+    margin: 0
+}
+
+.lzd-site-nav-menu .lzd-site-menu-nav-container .lzd-menu-labels .lzd-menu-labels-item {
+    margin-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+    height: 40px;
+    text-decoration: none
+}
+
+.lzd-site-nav-menu .lzd-site-menu-nav-container .lzd-menu-labels .lzd-menu-labels-item .lzd-menu-labels-item-text {
+    display: inline-block;
+    line-height: 40px;
+    vertical-align: middle;
+    height: 40px;
+    font-size: 14px;
+    color: #0f136d
+}
+
+.lzd-site-nav-menu-active {
+    position: fixed;
+    height: 40px;
+    z-index: 220
+}
+
+.lzd-site-nav-menu-dropdown .lzd-site-menu-root,.lzd-site-nav-menu-dropdown .lzd-site-menu-sub,.lzd-site-nav-menu-dropdown .lzd-site-menu-sub .lzd-site-menu-grand {
+    box-sizing: border-box;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.lzd-site-nav-menu-dropdown {
+    width: 200px;
+    height: 344px;
+    position: absolute;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.25);
+    background-color: #fff;
+    z-index: 200
+}
+
+.lzd-site-nav-menu-dropdown .lzd-site-menu-root {
+    padding: 8px 0 12px;
+    list-style: none;
+    height: 100%;
+    margin: 0
+}
+
+.lzd-site-nav-menu-dropdown .lzd-site-menu-root-item>a {
+    display: block;
+    padding-left: 8px;
+    height: 27px;
+    line-height: 27px;
+    text-decoration: none
+}
+
+.lzd-site-nav-menu-dropdown .lzd-site-menu-root-item>a>span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    width: 172px;
+    font-family: Roboto-Regular;
+    font-size: 13px;
+    line-height: 27px;
+    color: #757575;
+    cursor: pointer
+}
+
+.lzd-site-nav-menu-dropdown .lzd-site-menu-sub {
+    padding: 8px 0 12px;
+    height: 344px;
+    visibility: hidden;
+    position: absolute;
+    width: 200px;
+    list-style: none;
+    margin: 0;
+    left: 200px;
+    top: 0;
+    background: #fff;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,.25)
+}
+
+.lzd-site-nav-menu-dropdown .lzd-site-menu-sub-item>a {
+    line-height: 27px;
+    display: block;
+    padding-left: 8px;
+    height: 27px;
+    text-decoration: none
+}
+
+.lzd-site-nav-menu-dropdown .lzd-site-menu-sub-item>a>span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    width: 172px;
+    font-family: Roboto-Regular;
+    font-size: 13px;
+    line-height: 27px;
+    color: #757575;
+    cursor: pointer
+}
+
+.lzd-site-nav-menu-dropdown .lzd-site-menu-sub .sub-item-remove-arrow>a {
+    line-height: 27px;
+    display: block;
+    padding-left: 8px;
+    height: 27px;
+    text-decoration: none
+}
+
+.lzd-site-nav-menu-dropdown .lzd-site-menu-sub .sub-item-remove-arrow>a>span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    width: 172px;
+    font-family: Roboto-Regular;
+    font-size: 13px;
+    line-height: 27px;
+    color: #757575;
+    cursor: pointer
+}
