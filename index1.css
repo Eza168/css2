@@ -1,0 +1,9 @@
+.desktop-footer {
+    font-size: 12px;
+    font-weight: 200;
+    padding: 0;
+    min-width: 1188px;
+    width: 100%;
+    position: absolute;
+    left: 0
+}
